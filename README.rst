@@ -17,4 +17,12 @@ Usage
 To create a src and include directory with a Makefile
 ::
 
-    cinit
+    $ cinit
+    Creating directory: src
+    Creating directory: include
+    Generating Makefile
+    $ tree
+    .
+    ├── Makefile
+    ├── include
+    └── src
